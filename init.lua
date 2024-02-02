@@ -83,5 +83,9 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+
+    -- wrap long lines
+    -- use :help wrap for details
+    vim.cmd [[set wrap]]
   end,
 }
