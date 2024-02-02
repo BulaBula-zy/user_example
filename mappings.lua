@@ -1,3 +1,7 @@
+-- help functions
+function SelectInnerWord() vim.cmd [[normal! viw]] end
+function SelectInnerWORD() vim.cmd [[normal! viW]] end
+
 -- Mapping data with "desc" stored directly by vim.keymap.set().
 --
 -- Please use this mappings table to set keyboard mapping since this is the
@@ -38,6 +42,17 @@ return {
     ["<leader>T"] = {
       "<cmd>TodoTelescope<cr>",
       desc = "Open TODOs in Telescope",
+    },
+
+    -- selecet inner word
+    ["eb"] = {
+      "<cmd>lua SelectInnerWord()<cr>",
+      desc = "Select inner word",
+    },
+    -- selecet inner WORD
+    ["EB"] = {
+      "<cmd>lua SelectInnerWORD()<cr>",
+      desc = "Select inner WORD",
     },
   },
   t = {
