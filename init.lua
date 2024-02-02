@@ -54,6 +54,17 @@ return {
     servers = {
       -- "pyright"
     },
+    config = {
+      -- fix: the confilicts between clangd and null-ls
+      -- see https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/pack/cpp
+      -- see https://www.reddit.com/r/neovim/comments/12qbcua/multiple_different_client_offset_encodings/
+      -- see https://astronvim.com/Recipes/advanced_lsp#cc-clangd_extensionsnvim
+      clangd = {
+        capabilities = {
+          offsetEncoding = "utf-8",
+        },
+      },
+    },
   },
 
   -- Configure require("lazy").setup() options
