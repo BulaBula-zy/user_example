@@ -19,7 +19,8 @@ return {
 
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
-  colorscheme = "catppuccin-frappe",
+  -- colorscheme = "catppuccin-frappe",
+  colorscheme = "catppuccin-mocha",
   -- colorscheme = "tokyonight", -- tokyonight-storm default
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
