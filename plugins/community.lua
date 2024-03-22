@@ -25,5 +25,6 @@ return {
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
 }
