@@ -6,6 +6,7 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.pack.go" },
   -- { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.python-ruff" },
