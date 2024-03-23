@@ -17,5 +17,5 @@ return {
     vim.g.mkdp_page_title = "${name}"
   end,
   cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-  keys = { { "<leader>gm", "<cmd>MarkdownPreviewToggle<cr>", desc = "Markdown Preview" } },
+  keys = { { "<leader>um", "<cmd>MarkdownPreviewToggle<cr>", desc = "Markdown Preview" } },
 }
