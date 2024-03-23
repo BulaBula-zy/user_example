@@ -48,6 +48,9 @@ return {
       "<cmd>lua SelectInnerWORD()<cr>",
       desc = "Select inner WORD",
     },
+
+    -- close current tab
+    ["q"] = { "<cmd>tabclose<cr>", desc = "Close current tab" },
   },
   v = {
     -- FIX: move ONLY ONE line of code vertically now.
