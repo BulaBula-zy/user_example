@@ -8,7 +8,7 @@ return {
   -- NOTE: use 'keys' instead of 'key'
   keys = {
     {
-      "<leader>T",
+      "<leader>uT",
       "<cmd>TodoTelescope<cr>",
       desc = "Open TODOs in Telescope",
     }, -- triggered after inputing <leader>T
