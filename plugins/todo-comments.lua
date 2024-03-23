@@ -5,9 +5,12 @@ return {
   opts = {}, -- must use this code to setup
   event = "User AstroFile", -- triggered after opening a file
   cmd = { "TodoQuickFix" }, -- triggered after excuting :TodoQuickFix
-  key = {
-    "<leader>T",
-    "<cmd>TodoTelescope<cr>",
-    desc = "Open TODOs in Telescope",
-  }, -- triggered after inputing <leader>T
+  -- NOTE: use 'keys' instead of 'key'
+  keys = {
+    {
+      "<leader>T",
+      "<cmd>TodoTelescope<cr>",
+      desc = "Open TODOs in Telescope",
+    }, -- triggered after inputing <leader>T
+  },
 }
