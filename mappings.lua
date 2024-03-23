@@ -56,10 +56,10 @@ return {
     },
   },
   v = {
-    -- TODO: move ONLY ONE line of code vertically now.
+    -- FIX: move ONLY ONE line of code vertically now.
     -- need to re-enter VISUDL mode when you want to move multiple lines.
-    ["J"] = { ":m '>+1<CR>gv=gv", desc = "Move the selected code vertically up" },
-    ["K"] = { ":m '<-2<CR>gv=gv", desc = "Move the selected code vertically down" },
+    -- ["J"] = { ":m '>+1<CR>gv=gv", desc = "Move the selected code vertically up" },
+    -- ["K"] = { ":m '<-2<CR>gv=gv", desc = "Move the selected code vertically down" },
   },
   t = {
     -- setting a mapping to false will disable it

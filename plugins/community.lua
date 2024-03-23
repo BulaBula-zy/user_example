@@ -27,5 +27,6 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
 }
